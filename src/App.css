@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #4c20ba;
+}
+
+ul {
+  padding: 0;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media(max-width:748px) {
+
+
+  ul {
+    width: 90%;
+  }
+
+  li {
+    padding: 2px;
+    width: 100%;
+  }
+}
